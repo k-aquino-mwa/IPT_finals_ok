@@ -1,4 +1,5 @@
 # Handwritten Text Recognition Web Application
+#**Changes explanation is on line 60**
 This project aims to develop a web application for recognizing handwritten text from images using deep learning techniques. The application allows users to upload images containing handwritten text, processes the images to recognize the text, and provides the recognized text as output. Additionally, users can download the recognized text for further use.
 
 Description:
@@ -56,7 +57,7 @@ Implement support for recognizing multiple languages and scripts.
 Optimize performance for handling large volumes of image uploads and concurrent user requests
 
 
-CHANGES:
+**CHANGES:**
 For the changes I added a CRUD which will help the user to create a document, update/edit, delete and download
 For what purpose? Since you can have a text file of the said hand written text why make a document about what you feel while reading the documents
 Or even enhance add something into the written text.
