@@ -53,4 +53,10 @@ Future Improvements:
 Improve the accuracy of text recognition through model fine-tuning and data augmentation techniques.
 Enhance the user interface with additional features such as text editing and formatting options.
 Implement support for recognizing multiple languages and scripts.
-Optimize performance for handling large volumes of image uploads and concurrent user requests.
+Optimize performance for handling large volumes of image uploads and concurrent user requests
+
+
+CHANGES:
+For the changes I added a CRUD which will help the user to create a document, update/edit, delete and download
+For what purpose? Since you can have a text file of the said hand written text why make a document about what you feel while reading the documents
+Or even enhance add something into the written text.
