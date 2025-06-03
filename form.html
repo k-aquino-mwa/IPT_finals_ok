@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block title %}{{ action }} Document{% endblock %}
+
+{% block content %}
+<h1 class="mb-4">{{ action }} Document</h1>
+<form method="post">
+    <div class="mb-3">
+        <label for="text" class="form-label">Text</label>
+        <textarea id="text" name="text" class="form-control" rows="10">{{ document.text if document else '' }}</textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">{{ action }}</button>
+    <a href="{{ url_for('list_documents') }}" class="btn btn-link ms-3">Back to Documents List</a>
+</form>
+{% endblock %}
